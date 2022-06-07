@@ -1,0 +1,158 @@
+:root {
+    --header-height: 80px;
+    --color-main: #fff;
+    --logo-size: 70px; 
+  }
+  
+  * {
+    font-family: "Poppins", sans-serif !important; 
+  }
+  
+  body {
+    background: url(image/backimage2.png);
+    background-size: cover;
+    object-fit: cover;
+    /* min-height: 100vh; */
+    /* height:max-content; */
+    /* background-repeat: no-repeat; */
+   }
+  
+  .header {
+    height: var(--header-height);
+   }
+  
+  .main-color {
+    color: var(--color-main);
+   }
+  
+  .object-fit-cover {
+    object-fit: cover !important;
+   }
+  
+  .d-inline-flex {
+    display: inline-flex;
+   }
+  
+  
+  .top-0 {
+    top: 0;
+   }
+  
+  .left-0 {
+    left: 0;
+   }
+  
+  .me-45 {
+    margin-right: 2.5rem !important;
+   }
+  
+  .ms-45 {
+    margin-left: 2.5rem !important; 
+  }
+  
+  .map-img {
+    margin-left: -50px !important;
+   }
+  
+  .text-area {
+    margin: 170px 0 0 100px; 
+  }
+  
+  .social img {
+    width: 20px !important;
+    height: 28px !important; 
+  }
+ 
+  
+  .f-33 {
+    font-size: 33px;
+  }
+  
+
+  @media (max-width: 420px) {
+    .header {
+     height: 10px;
+     }
+     
+ 
+    .buta-image {
+      width:70%;
+      height:auto;
+      transform: translate(0, -80px);
+      margin-left:50px;
+
+    }
+
+    .buta-div{
+      height: 30% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+   .img-thumbnail{
+     width:425px !important;
+     height:auto;
+     max-width: 500px!important;
+   }
+
+    .social img {
+      width: 20px !important;
+      height: 28px !important; 
+    }
+  
+    .text-div {
+      margin:-70px 0 0 0!important;
+    }
+
+      .text-area h2 {
+        font-size: 18px !important;
+        margin-top:70px;
+       } 
+
+    }
+
+  @media (max-width: 769px) {
+    .buta-image {
+      margin-top: 20px !important; }
+  
+    .text-area {
+      margin: 150px 0 0 50px!important; 
+    }
+      .text-area h2 {
+        font-size: 24px !important;
+       } 
+       .text-div {
+        margin:-150px 0 0 0!important;
+      }
+}
+
+
+  @media (max-width: 1024px) {
+    .text-area {
+      margin: 50px 0 0 30px; }
+
+      .text-area h2 {
+        font-size: 24px !important; } 
+}
+
+
+  @media (min-width: 992px) {
+    .visually-lg-hidden {
+      visibility: hidden; } 
+    }
+
+
+  
+  @media (min-width: 992px) {
+    .home-bg-before:before {
+      content: '';
+      position: absolute;
+      width: 750px;
+      height: 600px;
+      top: 0;
+      right: 0;
+      background-image: url("image/Group 257.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+     }
+  
